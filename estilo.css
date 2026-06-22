@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222521;
+    color: #e5e5e0;
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+}
+
+.header-banner {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #1a1c19;
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+.titulo-principal {
+    color: #ffffff;
+    font-size: 3.2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+.subtitulo-banner {
+    color: #dfb36c;
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.contenido-principal {
+    width: 100%;
+    padding: 0 20px;
+}
+
+#sobre-mi, #cursos, #proyectos, footer {
+    max-width: 650px;
+    margin: 0 auto 50px auto;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 18px;
+    color: #dfb36c;
+}
+
+p {
+    margin-bottom: 14px;
+}
+
+.en-construccion {
+    color: #929990;
+}
+
+section a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px dashed #929990;
+    transition: color 0.2s ease;
+}
+
+section a:hover {
+    color: #dfb36c;
+}
+
+footer {
+    margin-top: 100px;
+    padding-top: 25px;
+    border-top: 1px dashed #343933;
+    font-size: 0.85rem;
+    color: #929990;
+}
+
+footer p {
+    margin: 6px 0;
+}
+
+footer a {
+    color: #e5e5e0;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+footer a:hover {
+    color: #dfb36c;
+}

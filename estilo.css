@@ -41,7 +41,7 @@ body {
     padding: 0 20px;
 }
 
-#sobre-mi, #cursos, #proyectos, footer {
+#sobre-mi, #cursos, #proyectos,#compañeros, footer {
     max-width: 650px;
     margin: 0 auto 50px auto;
 }
